@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+li,
+div {
+    color: brown;
+    font-style: oblique;
+}
+
+.top {
+    color: darkkhaki;
+}
+
+label[for="male"] {
+    color: green;
+    font-weight: bold;
+}
+
+a:visited {
+    color: greenyellow;
+}
+
+.box {
+    color: blue;
+    margin: 10px;
+    border: 2px solid red;
+    text-decoration: wavy;
+}
+
+p {
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 42;
+    font-style: normal;
+    text-decoration: wavy;
+}
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* This class puts the Add and Delete buttons side-by-side */
+.button-group {
+    margin-top: 10px;
+}
+
+.button-group button {
+    margin-right: 10px; /* Adds space between the buttons */
+}
+
+/* Make the 'Show' button have some space */
+#showButton {
+    margin-top: 20px;
+}
+
+/* Styling for the table that will be generated */
+table {
+    width: 300px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}

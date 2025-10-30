@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>My Bookmarks</h1>
+    <a href="https://www.google.com"> Open Google </a>
+    <img src="download.jpg" alt="Frieren" width="130">
+
+    <table>
+        <caption>Student Details</caption>
+        <tr>
+            <td>Name</td>
+            <td>Class</td>
+            <td>Roll_No</td>
+        </tr>
+        <tr>
+            <td>Harry</td>
+            <td>12</td>
+            <td>34</td>
+        </tr>
+    </table>
+
+    <h2>Main Bookmarks</h2>
+    <h3>Other Bookmark2</h3>
+
+    <ol type="i">
+        <li>Harry</li>
+        <li>Ravi</li>
+        <li>Shubham</li>
+    </ol>
+
+    <h1>Form Submission</h1>
+
+    <form action="post">
+        <div class="top">
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="enter your name">
+        </div>
+
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to our newsletter</label>
+        </div>
+
+        <div>
+            <label for="comment">Enter your comment</label>
+            <textarea rows="5" cols="50" id="comment" placeholder="Thoughts.."></textarea>
+
+            <div>
+                <select name="fruits">
+                    <option value="none">None</option>
+                    <option value="apple">Apple</option>
+                    <option value="cherry">Cherry</option>
+                    <option value="mango">Mango</option>
+                </select>
+            </div>
+        </div>
+    </form>
+
+    <a href="https://www.google.com">Go To Google</a>
+
+    <form action="post">
+        <div>
+            <label>Enter your Name</label>
+            <input type="text" name="name" placeholder="Your Name">
+        </div>
+        <div>
+            <label>Enter your City</label>
+            <input type="text" name="city" placeholder="where you live">
+        </div>
+        <div>
+            <label for="pincode">Enter your pincode</label>
+            <input type="text" name="code" id="pincode" placeholder="Area pincode">
+        </div>
+    </form>
+
+    <div id="firstdiv" class="yellow">First</div>
+    <div id="seconddiv" class="red yellow">Second</div>
+
+    <p class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt enim quae cupiditate dolorem quasi, veniam qui
+        tempore impedit debitis aliquam cum nihil non, harum reiciendis nam dolorum fuga provident sunt.
+    </p>
+
+    <button id="clickButton">Click Me!</button>
+    <h1>Fruit Manager</h1>
+
+    <div>
+        <label for="fruitInput">Enter a fruit:</label>
+        <input type="text" id="fruitInput" placeholder="e.g., Apple">
+    </div>
+
+    <div class="button-group">
+        <button id="addButton">Add</button>
+        <button id="deleteButton">Delete</button>
+    </div>
+
+    <div>
+        <button id="showButton">Show Fruit Table</button>
+    </div>
+
+    <div id="tableContainer"></div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
